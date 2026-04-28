@@ -1,0 +1,39 @@
+Stages of building LLMs
+
+Creating an LLM = Pretraining + Fine tuning
+Pretraining -training on Large, diverse amount of dataset. - gets answers
+Finetuning - Refinement by training on narrower dataset, specific to a particular task or domain. - this is exact and based on your requirement high accurate
+
+Example of Finetuning - Chatgpt can know all but specific on any large area that's due to the Pretraining.
+Harvey.ai - a ai for law. Finetuning done based on Law and legal cases.
+
+Finetuning is based on their own data to make thier product much stronger in ai , in that category. its needs for a product to work on a specific category ai.
+
+
+Large training data sources - Common crawl + WebText2 + Books1 + Books2 + Wikipedia - From each source, 3 billions of tokens are taken to train models.
+
+NLP - if we use it we need to train each NLP for different usecase like a NLP for quiz, NLP for chatbot, NLP of lang translation.
+But an LLM can easily fulfill all at a time.
+
+
+Pretraining + Finetuning schema:
+
+Data- Internet text, books, media, research articles(raw unlabelled text - trillions of words) --->  
+pretrained LLM(foundational model -> LLM pretrained on unlabelled text data) ---> 
+pretrained LLM trained on labelled dataset - finetuned LLM (classifiaction, summarisation, translation, personal assistants)- Finetune based on own data(labelled dataset)
+
+Steps for building LLM:
+1. train on a large corpus of text(raw text = without any labels ) from Internet.
+2. First training stage of LLM is also called foundational model
+3. After obtaining the pretrained LLM , we can further train LLM on a labelled data. -> Finetuning
+4. There are two popular categories of Finetuning.
+- instruction Finetuning - labelled dataset consists of instruction- answer pairs.
+ex: text translation, airline customer support
+
+- finetuning for classifiaction tasks - labelled dataset consists of text text and associated labels
+eg: emails spam vs no-spam
+
+
+total Pretraining cost of GPT-3: $4.6M
+
+

@@ -1,0 +1,37 @@
+Basic intro to transformers
+
+Most modern LLM archi depends on the transformers archi.
+
+- transformers archi is most needed.
+
+takes input.
+preprcoessing text - Input texts into tokens each token has id.
+Encoders - takes input text(tokens) data and produce text encodings
+Vector Embeddings - converts those all tokens into Vectors - here symantic meanings between words and captured just like KNN.
+
+transformer archi mainly consists of :
+- Encoders - encodes input text into Vectors
+- Decoder - generates output text from Vectors
+
+A note of self-attention mechanism:
+- Key part of transformers  allows model to weigh importance of diff words/tokens relative to each other.
+- This enables models capture long range of dependencies
+- above two are key parts of the predicts of next words or tokens.
+
+Variations of transformer models
+- BERT - Bi-directional encoder representations from transformers -- predicts hidden words in a given sentence
+- GPT models - generative pretrained transformers - Generates new words.
+
+BERT - can do very well of sentimental analysis and also it can find hidden words and also give attention to every word. it can look from both sides - depth understanding - it has encoder
+GPT - it looks sentence from left to right - it has decoder.
+
+
+transformers vs LLMs
+- Not all transformers are LLMs
+- transformers are also used for CV.
+
+CNN vs transformers
+- for vision related tasks VIt is performing better than CNN.
+
+- Not all LLMs are transformers.
+- LLMs can be based on recurrent or CNN as well.

@@ -1,0 +1,77 @@
+what is LLM?
+- a neural n/w designed to understand , generate and response to human like text.
+- Deep nueral n/w trained on massive amounts of text data.
+- neural nw's are fundamental part in this LLMS.
+
+nueral network
+- input layer +[nueron + hidden layers] + output layer
+
+Why those are LLMS?
+- Large - models have billions of parameters.
+- Lang models - these models do wide range of NLP tasks, question answering, sentiment analysis and much more. - related to language
+
+LLMS vs NLP models
+- LLMS - can do wide range of NLP tasks
+- NLP - designed for specific tasks like language translation
+- Earlier models could not write an emails  from custom instructions, these tasks for easy for current LLMs
+
+What Makes LLMs so much good than NLP?
+- That super power is the transformers.
+
+LLM vs Gen AI vs Deep Learning vs AI
+- LLM < DL < ML < AI
+
+AI vs ML
+- AI - rule based learning- like we use in the chat assistants in the paytm, swiggy. for someoptions they just give few answers everytime.
+- ML - Based on our chat they learn and give answer according to it.
+
+ML vs DL
+- DL - Fully works on the nueral nws + images these also starts from DL level
+- ML - nueral nws(DL) + Decision trees
+
+LLMS vs DL
+- LLMS - just trained based on the text.
+
+Gen AI 
+- LLMS + DL -> Lang + images
+- Using deep nueral nws to new create content such as text , images and forms of media.
+
+LLMs represent a specific application of deep learning techinque, leveraging thier ability to process and generate human like text
+
+applications of LLMS
+- content creation - (new content by on its own)
+- chatbots/virtual assistants
+- Machine translation
+- sentiment analysis
+- novel text generations
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
