@@ -1,0 +1,40 @@
+A closer look at GPT 
+
+- GPT have only decoder
+- Thier approach is combination of transformer and unsupervised pre-training(unlabelled data)
+1. Zero shot vs Few shot learning
+- zero shot :- ability to generalise to completely unseen tasks without any specific xamples.
+- one shot:- learning from 1 no of examples 
+- few shot:- learning from minimum no of examples , along with task need to give few examples
+
+for chatgpt it gives more accurate answers from the few shot learning.
+
+This is the whole data GPT3 was trained on,
+Sources:
+- common crawl data - 410 billions tokens from it. 
+- Web text2, Books1, Books2, Wikipedia
+
+Y pre-training costs are 2 high?
+- GPT has takes $4.6M
+- These pretrained models are base or foundational models, further used for the finetuning.
+
+- Many pre-trained LLMs are available on open-source models can be used as general purpose tools to write xtract and edit text which was not part of the training data.
+
+Ex: a own hacker model for me, Own free Cursor finetuned and runs by my model for me, Final biggest training models with low cost and computation.
+
+LLama-3.1 open source model - we can use it for freely
+
+- GPT always focussing on predicting next word. - unsupervised learning + auto-regressive
+
+Y huge computation takes?
+- If GPT wants to predicts next word,  from the billions and trillons of words for that searching using the backpropagation and updating weights these all takes lot of GPU's power.
+- We don't collect labels for training data, but use the structure of the data itself. next word in the sentence is used as label.
+- that's y it is called as the auto-regressive model, use previous outputs as inputs for future predictions.
+
+- GPT archi is easier than transformers due to only it has the decoders.
+- Here in GPT3 96 transformers are used.
+- In transformers in each iteration, output of the one transformer is input to the outer layer transformer
+
+- This is called emergent behaviour. - even it is trained to predict for next word, for still it has other capabilites like transalation tasks.
+
+- Always read thier documents and research papers.
