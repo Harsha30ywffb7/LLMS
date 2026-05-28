@@ -1,0 +1,27 @@
+check the offical docs
+
+1. always need a api key of the openai or google or something.
+2. always need import os from access env vars
+
+Chat models:
+- LLMs are typically accessed through a chat model interface
+- based on the chat model we need, need to import the providers 
+
+Temperatures: 
+- based on it LLMs can respond
+
+Chain of thoughts:
+Runnables:
+1. created a task
+2. passed it to LLM
+3. parsing content from LLM
+
+The above each step is the runnable and this runnables we need to chain them
+
+Chainings:
+- seq chainings or extended chainings: tasks run after each other
+- parallel chaining
+- conditional chaining: based on condition tasks will run
+
+RunnableSequence:
+- here instead of pipe operator we will use the RunnableSequence

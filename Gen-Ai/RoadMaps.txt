@@ -1,0 +1,25 @@
+How to learn it.
+
+first by :
+Understanding internals of LLM:
+- Neural networks
+- Maths - Gradient descent and back propagation
+- transformer architecture
+
+
+Building models:
+- Small models Building
+- Types of Neural networks - cnn, rnn
+- Building models
+- Fine Tuning - LoRA, QloRA
+
+Building LLM based applications:
+- using langchain Lang graph
+
+RAG pipelines
+
+Streamlit
+
+Ollama, Hugging face, Unsloth
+
+Deepseek y so popular and y it is great at the reasoning.
