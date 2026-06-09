@@ -1,0 +1,29 @@
+How computers understand the languages while doing these NLP and all?
+
+To help computers to understand we need:
+- Text preprocessing
+- Tokenisation
+- Embeddings
+
+Step-1: Text preprocessing
+
+Prepare Text by:
+- Converting all into lowercases
+- Removing punctuations
+- Remove stop words
+- Stemming/Lemmatisation -- gets root forms
+--- change, changing, changes, changer, changed ==== chang (Stemming)
+--- change, changing, changes, changer, changed ==== change (Lemmatisation) - more meaningful
+
+
+Step-2: Tokenisation
+
+- Break words into smaller parts
+
+-- Word Tokenisation
+-- subword Tokenisation
+
+Step-3: Embeddings
+- Represent the words as numbers computers can understand similarities
+-- Turns words into vectors
+-- similar words(king, queen have similar vectors)
