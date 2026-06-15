@@ -1,0 +1,30 @@
+attention mechanism
+- computer struggle to focus on the every word in the sentence, which makes hard them to know what's really important.
+- attention mech solves it, mimic like a humans.
+
+
+what is attention?
+- it assigns a weights to each word to show how important it is in the context.
+- attention helps the model to zoom in the words which matter most for the task.
+
+example: if we have 100k words, then it needs to focus on the fewer words based on weightage. to decrease the computational expensives.
+
+How does attention works?
+
+step-1: Assign importance to words
+- Each word in a sentence gets an importance score based on the meaning and other relation of words.
+
+ex: the cat which was sleeping, jumped over the wall.
+(cat, jumped)- importance
+
+step-2: calculate the attention scores
+- words relatively closer have higher scores. scores are calculated based on the relationships. relative words get higher scores.
+
+ex: cat and jumped gets higher scores because they are directly related.
+
+step-3: adjust focus based on the scores.
+- the model uses these scores to focus on the higher scoring words, making sense of the main meaning of the sentence.
+
+ex: cat, jumped, wall help to understand the action.
+
+--This is how the chatgpt understands our context and focus on the words by adjusting scores.This is how the attention works.

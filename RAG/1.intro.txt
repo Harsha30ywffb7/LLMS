@@ -24,6 +24,8 @@ Step-2: Tokenisation
 -- subword Tokenisation
 
 Step-3: Embeddings
-- Represent the words as numbers computers can understand similarities
+- Represent the words as numbers computers can understand similarities or find relationships between those words
 -- Turns words into vectors
 -- similar words(king, queen have similar vectors)
+- Already there are so many word to vector mapping algorithms are there one of them is Word2vec.
+- eg: king queen , man woman in this way.
