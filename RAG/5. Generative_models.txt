@@ -1,0 +1,40 @@
+Generative models: Creating a cohrent answer
+
+- unlike retrival models generate sentences that make sense together.
+purpose: generative models build sentences word by word for natural answers.
+
+How does they work:
+Generative models predict each words sequentially and creating a smooth and logical sentence.
+
+how they solve: 
+coherence
+- connects all information into sentences for easy understanding.
+adaptability:
+- can adjusts responses based on topic or complexity , like simple explanations when asked.
+
+Breaking down generative models:
+- Using attention
+- predicting next word - predicts one word at a time.
+- decoding the response - continues word predictions untill , meaningful answers created.
+
+
+
+
+
+
+RAG architecture -- Retrieval and Gen Models in RAG.
+
+benifits of combining retrieval and gen models:
+more clarity on answers.
+
+
+How retrieval augments the generative model:
+
+without retrieval: model alone can generate the answers based on the prior training, potentially lead to inaccuracies.
+with retrieval: the generative model has specific , relevant information to use , increasing accuracy in response.
+
+augmentation effect: the retreival step grounds the generative model, making the final answer both clear and correct.
+
+
+End to end workflow: RAG pipelines in action.
+step1: user input question --> step-2: transform question into vector( creates Embeddings) -> step-3: retrive relevant info( similarity matching) -->step-4:(feed info to gen model) these all retrieved info used by the next step by coherence -->applying attention(within in the retrived info)--> step-5: generates the answer--> decoding the response. --> output to the user.

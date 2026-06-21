@@ -1,0 +1,26 @@
+It is how much the text related to each other.
+
+It helps computers to similarity by the assigning the scores to the texts by mathematical scoring.
+If user asks a question this similarity scores help to find more closer words.
+
+High similarity scores mean more relevant content, so it ranked in higher for the chatbot responses.
+
+
+Cosine similarity:
+it shows the how similar two pieces of the text are by comparing the direction of thier meaning rather than the exact words.
+it works by measuring angle between the two vectors of the words.
+
+Jaccard similarity:
+focuses on comparing words directly, it measures the similarity between two sets of words how many are common.
+
+Euclidean distance:
+Calculates the straight line difference between two vectors. smaller the mean texts are more similar.
+
+information Retrieval: IR
+It is about the finding the right information from the large collection of the data based on the user question.
+
+
+How does it work?
+- Document representations - convert text into numbers and vectors (Embeddings)
+- scoring and ranking - decides the what is most revelant
+- Indexing -  IR system Finds to find Document quickly

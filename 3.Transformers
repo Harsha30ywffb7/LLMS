@@ -35,3 +35,48 @@ CNN vs transformers
 
 - Not all LLMs are transformers.
 - LLMs can be based on recurrent or CNN as well.
+
+
+How will models know the which words are important - based on the context.
+But how will models know about the context.
+
+
+transformers - what why and how?
+
+- before transformers NLP models read the words one by one, but current word understand previous words has no idea. it only needs to understand the current words.
+- so its impossible find relationships between words withour the previous memory.
+
+- transformers make entire sentences can read a at once.
+- that makes attention to read entire words and find the contexts.
+- process texts much faster, because they are not limited to word by word.
+
+
+what is a transformer?
+- A transformer is a type of computer model that reads the whole sentence in one go., understanding which words are important and relation between them.
+
+
+How is works?
+- Step-1: Representing words with Embeddings and positions
+-- transformers start by Turning each word in a sentence into set of numbers(Embeddings)  that Represents the meaning of the words.
+-- they also add positions to the each word to keep track of the order of the words in the sentence.
+
+ex: dog chasing the ball.
+
+- step-2: Using attention to find important works
+-- The transformer then uses attention to find the most important words for understanding the meaning.
+-- attention scores tell which words relate most closely to each other.
+
+ex: In the sentence,
+- the dog,  tired after running , chased the ball.
+
+tired after is the extra information running and chased or important which has more attention scores.
+
+ex: who chases the ball?  dog by attention.
+
+- Step-3: Layers to build understanding
+-- transformers have layers, each layer acts like a filters that focuses on the different aspects of the sentence.
+-- In the first layer it understands the basic relationships like dog and chased.
+-- but in next layers it might understand "chased by the ball" is involved by the dog.
+-- in every layer of transformer improves the understanding context.
+
+-- Google translate has transformers can easily understand the basic relationships across all the languages so they can easily understands the contexts better even how worst the task is.

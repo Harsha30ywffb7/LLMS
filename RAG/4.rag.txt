@@ -1,0 +1,70 @@
+ Why RAG?
+
+ - finding revelant info from large amount of a data. Retrieval models understands that specific data and can answer any question from it.
+
+ Process: 
+ - two part system --> Retrieve modal --> Generative model
+
+ importance:
+ - RAG , ensures that has a generative model has the right information to generate useful answers.
+
+ Types of RAG:
+ Dense: based on the meaning and Embeddings, and related concepts to be found.
+ - It can find context even different words, it finds through meanings and relations due to Embeddings.
+ - It very good for related data, 
+ cons: complex and very slow to find data due to Embeddings.
+
+ traditional RAG: searches for exact keywords that matches the query, similar to basic search engine.(Term matching)
+ - It is very faster. because of exact words matching.
+ cons: it is for the exact matches, even related context available due to matching words it can able to find the data.
+
+
+ traditional Retrieval models:
+ - Higher scores indicates the greater relevance making easier to find the documents focused on the searched text.
+ purpose: it is efficient way to locate focused conent in the large data collections.
+
+
+ TF-IDF : term freq and inverse document freq
+
+
+ term freq - importance of a term in that document.
+ idf - importanace across all the documents
+
+ ex: example a article has a global warming terming, warming is repeated 10 times it has a high score.
+ these frequent words likely reflect in many documents.
+
+ Idf-
+ - terms like "the","and" has low scores. global warming appears it has more score.
+ - it mainly focuses on the how rare the term is across the documents
+
+
+ Formula : TF-IDF = tf*idf
+
+
+ BM25(best matching 25)- advanced RAG model
+ - it has done on above the TF-IDF with adjustments of frequency saturation and document length normalisation.
+ - it document is too big, it normalises the document, because some words may be too often then a bias will came it boosts that words.
+
+ for it we need saturation and bias handling to reduce the unfair boosting
+ parameter k1 and bias.
+ purpose:BM25 excels in complex searches, ranking higher detailed documents effectively.
+useful for complex and big documents. tf-idf uses for revelant docs.
+
+
+Dense Retrieval models:
+- it helps to find the revelant information not words based on the exact matching, it can understands phrases and their meanings. here it gets related meanings.
+
+DPR:- Dense passage Retrieval
+finds answer based on the related meanings and words.
+used in systems like search engines and QNA
+
+DPR cretes Embeddings for both queries and documents, finding the most relevant answers.
+
+DPR uses Dual encoder architecture.
+
+Dual encoder architecture:
+
+
+The role of the retrival models: getting information from the existing data.
+problem: Results may be disjointed or unclear, requiring some additional effort to join those pieces together(fetches as info from dcos and but need to phrase better answer for users by finding connections b/w the words).
+- For that and here foundation of the generative models are established.
