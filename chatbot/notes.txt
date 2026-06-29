@@ -1,0 +1,6 @@
+pip install sentence-transformers -- it is used to create the dense embeddings for the images, sentences, paragraphs, audio and text.
+
+psycopg2-binary is the standard database adapter for Python, allowing your code to connect to and execute queries against a PostgreSQL database.
+
+pgvector is a library that integrates with psycopg2 to enable the use of the pgvector extension in PostgreSQL.  This extension adds support for storing and querying high-dimensional vectors, which is critical for tasks like semantic search, recommendation systems, and machine learning applications (such as RAG chatbots) that rely on vector embeddings. 
+

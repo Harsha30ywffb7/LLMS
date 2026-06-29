@@ -1,0 +1,20 @@
+Project 1: Build a tokenizer from scratch.
+Project 2: Implement a neural network with only NumPy.
+Project 3: Build a transformer block in PyTorch.
+Project 4: Train a tiny GPT on a small text corpus like Tiny Shakespeare.
+Project 5: Create an embedding model and semantic search engine.
+Project 6: Build a complete RAG chatbot over your own documents.
+Project 7: Fine-tune a small open model for a custom task.
+Project 8: Build an end-to-end ChatGPT-like application with your own inference server, retrieval pipeline, and web interface.
+
+
+
+Build a PDF Semantic Search Engine - {Upload PDF, Extract text, Chunk intelligently, Generate embeddings, Store in PostgreSQL, Search with natural language}
+
+Build a Chat with PDF application - {Exactly like ChatGPT with documents.}
+
+Multi-user RAG - {Each user has private documents., Search only within their own data.}
+
+Search only within their own data. {}
+
+Implement a Transformer from scratch - Implement a Transformer from scratch
